@@ -1,0 +1,117 @@
+.education {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  &__card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    }
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      
+      .education__icon {
+        background-color: var(--secondary-color);
+        transform: rotateY(360deg);
+      }
+    }
+  }
+  
+  &__icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    transition: transform 0.6s ease, background-color 0.3s ease;
+  }
+  
+  &__degree {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+  }
+  
+  &__institution {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  &__field {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-style: italic;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  
+  &__year {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 15px;
+    
+    svg {
+      color: var(--primary-color);
+    }
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .education {
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+    
+    &__card {
+      padding: 25px;
+    }
+    
+    &__icon {
+      width: 60px;
+      height: 60px;
+      font-size: 1.5rem;
+    }
+    
+    &__degree {
+      font-size: 1.2rem;
+    }
+  }
+} 

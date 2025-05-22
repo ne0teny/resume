@@ -96,27 +96,27 @@ export const translations: Record<Language, Translations> = {
         firstMedia: {
           title: 'Frontend-разработчик',
           location: 'Казахстан',
-          description: 'Занимался поддержкой уже существующих проектов написанных в основном на React, Angular и React Native. Так же создавал новые проекты на React и Flutter.'
+          description: 'Занимался поддержкой уже существующих проектов, написанных в основном на React, Angular и React Native. Также создавал новые проекты на React и Flutter.'
         },
         aiSystems: {
           title: 'Frontend Developer',
           location: 'Алматы',
-          description: 'Работаю на должности Frontend React, создаю мобильные веб-приложения.'
+          description: 'Работаю на должности Frontend-разработчика на React, создаю мобильные и веб-приложения.'
         },
         unityConsulting: {
           title: 'Frontend-разработчик',
           location: 'Алматы',
-          description: 'Занимался версткой сайтов и доработкой существующих. Также занимался трафиком в Keitaro.'
+          description: 'Занимался версткой сайтов и доработкой существующих. Также работал с трафиком в Keitaro.'
         },
         blackTree: {
           title: 'Frontend-разработчик',
           location: 'Великобритания',
-          description: 'Создавал как новые сайты так и дорабатывал уже легаси. Работал с React, Angular и jQuerry. Дизайны зачастую делал сам.'
+          description: 'Создавал новые сайты и дорабатывал уже существующие (легаси). Работал с React, Angular и jQuery. Дизайны зачастую делал самостоятельно.'
         },
         olymp: {
           title: 'HTML-верстальщик',
           location: 'Алматы',
-          description: 'Верстать лендинги и дорабатывать уже существующие сайты. Часто работал с legacy кодом и внедрял разные технологий. Так же приходилось иметь дело с 3D.'
+          description: 'Верстал лендинги и дорабатывал уже существующие сайты. Часто работал с legacy-кодом и внедрял различные технологии. Также приходилось иметь дело с 3D.'
         }
       }
     },
@@ -178,7 +178,7 @@ export const translations: Record<Language, Translations> = {
       firstName: 'Sailaukhan Beknur',
       lastName: 'Kurmanayuly',
       subtitle: 'Frontend Developer',
-      description: 'Hello! My name is Beknur, and I\'m a frontend developer with 4 years of experience. I develop both web and mobile applications using React, React Native, and Flutter. I can quickly integrate into a team, understand others\' code, and deliver features to production efficiently.',
+      description: 'Hello! My name is Beknur, and I\'m a frontend developer with 4 years of experience. I develop both web and mobile applications using React, React Native, and Flutter. I can quickly integrate into teams, understand others\' code, and deliver features to production efficiently.',
       scrollDown: 'Scroll Down',
       contact: 'Contact Me',
       myExperience: 'My Experience'
@@ -194,7 +194,7 @@ export const translations: Record<Language, Translations> = {
         aiSystems: {
           title: 'Frontend Developer',
           location: 'Almaty',
-          description: 'Working as a Frontend React developer, creating mobile web applications.'
+          description: 'Currently working as a Frontend React developer, creating mobile and web applications.'
         },
         unityConsulting: {
           title: 'Frontend Developer',

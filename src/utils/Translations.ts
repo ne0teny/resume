@@ -101,12 +101,12 @@ export const translations: Record<Language, Translations> = {
         aiSystems: {
           title: 'Frontend Developer',
           location: 'Алматы',
-          description: 'Работал на должности Frontend-разработчика на React, создавал мобильные и веб-приложения.'
+          description: 'Работал на должности Frontend-разработчика на React, создавал мобильные и веб-приложения'
         },
         unityConsulting: {
           title: 'Frontend-разработчик',
           location: 'Алматы',
-          description: 'Занимался версткой сайтов и доработкой существующих. Также работал с трафиком в Keitaro.'
+          description: 'Занимался версткой сайтов и доработкой существующих. Также работал с трафиком в Keitaro'
         },
         blackTree: {
           title: 'Frontend-разработчик',

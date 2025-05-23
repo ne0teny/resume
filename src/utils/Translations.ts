@@ -101,7 +101,7 @@ export const translations: Record<Language, Translations> = {
         aiSystems: {
           title: 'Frontend Developer',
           location: 'Алматы',
-          description: 'Работаю на должности Frontend React, создаю мобильные веб-приложения.'
+          description: 'Работал на должности Frontend React, создавал мобильные веб-приложения.'
         },
         unityConsulting: {
           title: 'Frontend-разработчик',

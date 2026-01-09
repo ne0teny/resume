@@ -94,24 +94,73 @@
 }
 
 /* Responsive styles */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .education {
     &__grid {
-      grid-template-columns: 1fr;
+      gap: 20px;
     }
-    
+
     &__card {
       padding: 25px;
     }
-    
+
     &__icon {
       width: 60px;
       height: 60px;
       font-size: 1.5rem;
+      margin-bottom: 15px;
     }
-    
+
     &__degree {
       font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    &__institution {
+      font-size: 1rem;
+    }
+
+    &__field {
+      font-size: 0.95rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .education {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    &__card {
+      padding: 18px;
+    }
+
+    &__icon {
+      width: 55px;
+      height: 55px;
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+
+    &__degree {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    &__institution {
+      font-size: 0.95rem;
+    }
+
+    &__field {
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+
+    &__year {
+      font-size: 0.85rem;
+      padding-top: 10px;
     }
   }
 } 

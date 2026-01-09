@@ -87,13 +87,32 @@
 
 @media (max-width: 576px) {
   .skills {
-    &__category-title {
-      font-size: 1.3rem;
+    &__container {
+      gap: 20px;
     }
-    
+
+    &__category {
+      padding: 18px;
+    }
+
+    &__category-title {
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+    }
+
+    &__list {
+      gap: 10px;
+    }
+
     &__item {
       font-size: 0.8rem;
-      padding: 6px 14px;
+      padding: 6px 12px;
+    }
+
+    &__additional {
+      font-size: 0.9rem;
+      padding: 12px;
+      margin: 0 10px;
     }
   }
 } 

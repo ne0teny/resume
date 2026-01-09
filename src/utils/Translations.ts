@@ -85,7 +85,7 @@ export const translations: Record<Language, Translations> = {
       firstName: 'Сайлаухан Бекнур',
       lastName: 'Курманайулы',
       subtitle: 'Frontend-разработчик',
-      description: 'Привет! Меня зовут Бекнур, я фронтенд-разработчик с четырёхлетним опытом. Занимаюсь разработкой как веб-приложений, так и мобильных — работаю с React, React Native и Flutter. Умею быстро вливаться в команду, разбираться в чужом коде и доводить фичи до продакшена без лишнего шума.',
+      description: 'Привет! Меня зовут Бекнур, я фронтенд-разработчик с 4+ годами опыта. Занимаюсь разработкой как веб-приложений, так и мобильных — работаю с React, React Native и Flutter. Умею быстро вливаться в команду, разбираться в чужом коде и доводить фичи до продакшена без лишнего шума.',
       scrollDown: 'Прокрутите вниз',
       contact: 'Связаться',
       myExperience: 'Мой опыт'
@@ -93,25 +93,30 @@ export const translations: Record<Language, Translations> = {
     experience: {
       title: 'Опыт работы',
       companies: {
+        finansRepublika: {
+          title: 'Flutter-разработчик',
+          location: 'Казахстан',
+          description: 'Работал мобильным разработчиком на Flutter в финтех компании, поддерживал существующие проекты на React Native и мигрировал его код на Flutter. Занимался поддержкой сайта на Vue, часто залазил в бэк из-за отсутствие бэкендера и рефакторил много кода. Кроме того поддерживал сайты на React.'
+        },
         firstMedia: {
           title: 'Frontend-разработчик',
           location: 'Казахстан',
-          description: 'Занимался поддержкой уже существующих проектов написанных в основном на React, Angular и React Native. Так же создавал новые проекты на React и Flutter.'
+          description: 'Занимался поддержкой уже существующих проектов написанных в основном на Vue и React Native. Так же создавал новые проекты на Vue и Flutter.'
         },
         aiSystems: {
-          title: 'Frontend Developer',
+          title: 'Frontend-разработчик',
           location: 'Алматы',
-          description: 'Работал на должности Frontend React, создавал мобильные веб-приложения.'
+          description: 'Работал на должности Frontend React, создавал мобильные веб-приложения и поддерживал сайты.'
         },
         unityConsulting: {
           title: 'Frontend-разработчик',
           location: 'Алматы',
-          description: 'Занимался версткой сайтов и доработкой существующих. Также занимался трафиком в Keitaro.'
+          description: 'Занимался версткой сайтов и доработкой существующих. Также занимался трафиком в Keitaro. Под конец начал поддержку мобильного приложения на React Native и переписывал его под Flutter. Так же занимался дизайном сайтов и приложения.'
         },
         blackTree: {
           title: 'Frontend-разработчик',
           location: 'Великобритания',
-          description: 'Создавал как новые сайты так и дорабатывал уже легаси. Работал с React, Angular и jQuerry. Дизайны зачастую делал сам.'
+          description: 'Создавал как новые сайты так и дорабатывал уже легаси. Кроме того занимался десктопными приложениями и мобильными приложениями, десктоп писали на электроне.'
         },
         olymp: {
           title: 'HTML-верстальщик',
@@ -178,7 +183,7 @@ export const translations: Record<Language, Translations> = {
       firstName: 'Sailaukhan Beknur',
       lastName: 'Kurmanayuly',
       subtitle: 'Frontend Developer',
-      description: 'Hello! My name is Beknur, and I\'m a frontend developer with 4 years of experience. I develop both web and mobile applications using React, React Native, and Flutter. I can quickly integrate into a team, understand others\' code, and deliver features to production efficiently.',
+      description: 'Hello! My name is Beknur, and I\'m a frontend developer with 4+ years of experience. I develop both web and mobile applications using React, React Native, and Flutter. I can quickly integrate into a team, understand others\' code, and deliver features to production efficiently.',
       scrollDown: 'Scroll Down',
       contact: 'Contact Me',
       myExperience: 'My Experience'
@@ -186,25 +191,30 @@ export const translations: Record<Language, Translations> = {
     experience: {
       title: 'Work Experience',
       companies: {
+        finansRepublika: {
+          title: 'Flutter Developer',
+          location: 'Kazakhstan',
+          description: 'Worked as a mobile developer on Flutter in a fintech company, maintained existing React Native projects and migrated code to Flutter. Supported Vue sites, frequently worked on backend due to lack of dedicated backend developers, and refactored significant code. Also maintained React websites.'
+        },
         firstMedia: {
           title: 'Frontend Developer',
           location: 'Kazakhstan',
-          description: 'Maintained existing projects primarily built with React, Angular, and React Native. Also created new projects using React and Flutter.'
+          description: 'Maintained existing projects primarily built with Vue and React Native. Also created new projects using Vue and Flutter.'
         },
         aiSystems: {
           title: 'Frontend Developer',
           location: 'Almaty',
-          description: 'Working as a Frontend React developer, creating mobile web applications.'
+          description: 'Working as a Frontend React developer, creating mobile web applications and maintaining websites.'
         },
         unityConsulting: {
           title: 'Frontend Developer',
           location: 'Almaty',
-          description: 'Developed websites and improved existing ones. Also worked with traffic in Keitaro.'
+          description: 'Developed websites and improved existing ones. Also worked with traffic in Keitaro. Later supported mobile applications on React Native and migrated them to Flutter. Also worked on design for websites and applications.'
         },
         blackTree: {
           title: 'Frontend Developer',
           location: 'United Kingdom',
-          description: 'Created new websites and improved legacy ones. Worked with React, Angular, and jQuery. Often created designs myself.'
+          description: 'Created new websites and improved legacy ones. Also worked on desktop applications and mobile applications, desktop was built with Electron.'
         },
         olymp: {
           title: 'HTML Developer',

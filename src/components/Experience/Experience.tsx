@@ -44,45 +44,51 @@ const Experience: React.FC = () => {
   const companies: ExperienceItem[] = [
     {
       id: 1,
+      company: 'ФИНАНСОВЫЙ ХОЛДИНГ «РЕСПУБЛИКА»'
+    },
+    {
+      id: 2,
       company: '1st Media Group',
       website: 'fmg.kz'
     },
     {
-      id: 2,
+      id: 3,
       company: 'ЧАСТНАЯ КОМПАНИЯ AI SYSTEMS LTD.'
     },
     {
-      id: 3,
+      id: 4,
       company: 'Unity Consulting',
       website: 'unity-cpa.team'
     },
     {
-      id: 4,
+      id: 5,
       company: 'Black Tree Gaming Ltd',
       website: 'www.nexusmods.com'
     },
     {
-      id: 5,
+      id: 6,
       company: 'OLYMP'
     }
   ];
 
   // Массивы навыков для каждой компании
   const companySkills = [
-    ['React', 'Angular', 'React Native', 'Flutter'],
-    ['React', 'SCSS', 'TypeScript', 'FastAPI', 'Python', 'React Native CLI/EXPO', 'Flutter', 'Dart'],
-    ['JavaScript', 'React', 'Angular', 'TypeScript', 'Tailwind', 'PHP', 'Flutter', 'Dart', 'SCSS', 'Python (backend)', 'React Native CLI'],
-    ['JavaScript', 'React', 'Tailwind', 'SCSS', 'TypeScript'],
-    ['Angular', 'TypeScript', 'PHP', 'jQuery', 'Joomla']
+    ['Flutter', 'Flutter Flavor', 'React Native', 'Vue.js', 'C# (ASP)', 'Python (Django)'],
+    ['Flutter', 'Vue3', 'TypeScript', 'React Native', 'C# (ASP)'],
+    ['React', 'React Native', 'Flutter', 'Python (FastAPI)', 'Vue3'],
+    ['Vue', 'Flutter', 'PHP (Laravel)', 'React Native'],
+    ['React', 'React Native', 'Flutter', 'Electron', 'Elixir'],
+    ['React', 'Threejs', 'jQuery']
   ];
 
   // Периоды работы
   const periods = [
+    'Май 2025 — Январь 2026',
     'Сентябрь 2024 — Апрель 2025',
     'Март 2024 — Август 2024',
-    'Сентябрь 2023 — Март 2024',
-    'Май 2021 — Июль 2023',
-    'Апрель 2020 — Март 2021'
+    'Апрель 2023 — Март 2024',
+    'Апрель 2022 — Март 2023',
+    'Декабрь 2021 — Март 2022'
   ];
 
   return (

@@ -254,22 +254,166 @@
 }
 
 /* Responsive styles */
+@media (max-width: 992px) {
+  .contact {
+    &__info,
+    &__form-container {
+      padding: 20px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .contact {
     &__subtitle {
       font-size: 1.3rem;
     }
-    
+
+    &__info {
+      padding: 20px;
+    }
+
     &__info-icon {
       width: 35px;
       height: 35px;
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
-    
+
+    &__info-content {
+      h4 {
+        font-size: 1rem;
+      }
+
+      a, p {
+        font-size: 0.95rem;
+      }
+    }
+
+    &__form-container {
+      padding: 20px;
+    }
+
     &__form-group {
       input, textarea {
         padding: 12px;
+        font-size: 0.9rem;
       }
+
+      textarea {
+        min-height: 120px;
+      }
+    }
+
+    &__method-btn {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .contact {
+    &__container {
+      gap: 20px;
+    }
+
+    &__subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    &__info {
+      padding: 15px;
+    }
+
+    &__info-item {
+      margin-bottom: 18px;
+    }
+
+    &__info-icon {
+      width: 32px;
+      height: 32px;
+      font-size: 0.85rem;
+      margin-right: 12px;
+    }
+
+    &__info-content {
+      h4 {
+        font-size: 0.95rem;
+        margin-bottom: 3px;
+      }
+
+      a, p {
+        font-size: 0.9rem;
+      }
+    }
+
+    &__social {
+      gap: 10px;
+      margin-top: 20px;
+
+      &-link {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+      }
+    }
+
+    &__form-container {
+      padding: 15px;
+    }
+
+    &__subtitle {
+      font-size: 1.1rem;
+    }
+
+    &__form {
+      gap: 15px;
+
+      .contact__submit {
+        margin-top: 5px;
+      }
+    }
+
+    &__form-group {
+      input, textarea {
+        padding: 10px;
+        font-size: 0.9rem;
+      }
+
+      textarea {
+        min-height: 100px;
+      }
+    }
+
+    &__method-btn {
+      padding: 8px;
+      font-size: 0.8rem;
+    }
+
+    &__success {
+      padding: 15px;
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    &__error {
+      padding: 10px;
+
+      p {
+        font-size: 0.85rem;
+      }
+
+      &-help {
+        font-size: 0.8rem;
+      }
+    }
+
+    &__email-note {
+      font-size: 0.75rem;
+      margin-top: 15px;
     }
   }
 } 
